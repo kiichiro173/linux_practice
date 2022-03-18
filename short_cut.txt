@@ -1,0 +1,3 @@
+Ctrl + A 行の先頭に移動
+Ctrl + E 行の最後に移動
+Ctrl + L clearのような挙動になる。
