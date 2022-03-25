@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: circleci_dir
+    working_directory: linux_practice/circleci_dir
     docker:
       - image: circleci/python:3.6.4
     steps:
