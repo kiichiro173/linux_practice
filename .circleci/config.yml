@@ -13,4 +13,4 @@ jobs:
           command: sudo pip install -r requirements.txt
       - run:
           working_directory: circleci_dir
-          command: nosetests tests/math-test.py
+          command: nosetests tests/match-test.py
