@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/linux_practice/circleci_dir
+    working_directory: ~/linux_practice
     docker:
       - image: circleci/python:3.6.4
     steps:
@@ -9,6 +9,8 @@ jobs:
       - run:
           command: ls
       - run:
+          working_directory: circleci_dir
           command: sudo pip install -r requirements.txt
       - run:
+          working_directory: circleci_dir
           command: nosetests tests/match-test.py
