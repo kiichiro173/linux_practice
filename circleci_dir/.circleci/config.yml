@@ -7,8 +7,6 @@ jobs:
     steps:
       - checkout
       - run:
-          command: ls
-      - run:
           command: sudo pip install -r requirements.txt
       - run:
           command: nosetests tests/math-test.py
