@@ -2,6 +2,7 @@ version: 2
 jobs:
   build:
     working_directory: ~/linux_practice
+    docker:
       - image: circleci/python:3.6.4
     steps:
       - checkout
