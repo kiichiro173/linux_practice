@@ -12,5 +12,6 @@ jobs:
           working_directory: circleci_dir
           command: sudo pip install -r requirements.txt
       - run:
+          name: ウェエエえええええええい！！！！
           working_directory: circleci_dir
           command: nosetests tests/match-test.py
